@@ -1,0 +1,6 @@
+[submodule "esp32-adau1701"]
+	path = esp32-adau1701
+	url = git@github.com:mkullber/esp32-adau1701.git
+[submodule "STM32F411_USB_AUDIO_DAC"]
+	path = STM32F411_USB_AUDIO_DAC
+	url = git@github.com:mkullber/STM32F411_USB_AUDIO_DAC.git
