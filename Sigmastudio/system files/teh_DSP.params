@@ -1,6 +1,6 @@
 Cell Name         = Main inv L
 Parameter Name    = EQ1940Invert1gain
-Parameter Address = 50
+Parameter Address = 52
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -9,61 +9,16 @@ Parameter Data :
 
 Cell Name         = Main inv R
 Parameter Name    = EQ1940Invert2gain
-Parameter Address = 51
+Parameter Address = 53
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
 
 
 
-Cell Name         = Main HP
-Parameter Name    = EQ1940Dual10B1
-Parameter Address = 54
-Parameter Value   = 1
-Parameter Data :
-0x00 ,	0x80 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Main HP
-Parameter Name    = EQ1940Dual11B1
-Parameter Address = 55
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Main HP
-Parameter Name    = EQ1940Dual12B1
-Parameter Address = 56
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Main HP
-Parameter Name    = EQ1940Dual11A1
-Parameter Address = 57
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Main HP
-Parameter Name    = EQ1940Dual12A1
-Parameter Address = 58
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
 Cell Name         = Main LP
 Parameter Name    = EQ1940Dual20B1
-Parameter Address = 64
+Parameter Address = 56
 Parameter Value   = 1
 Parameter Data :
 0x00 ,	0x80 ,	0x00 ,	0x00 ,	
@@ -72,7 +27,7 @@ Parameter Data :
 
 Cell Name         = Main LP
 Parameter Name    = EQ1940Dual21B1
-Parameter Address = 65
+Parameter Address = 57
 Parameter Value   = 0
 Parameter Data :
 0x00 ,	0x00 ,	0x00 ,	0x00 ,	
@@ -81,7 +36,7 @@ Parameter Data :
 
 Cell Name         = Main LP
 Parameter Name    = EQ1940Dual22B1
-Parameter Address = 66
+Parameter Address = 58
 Parameter Value   = 0
 Parameter Data :
 0x00 ,	0x00 ,	0x00 ,	0x00 ,	
@@ -90,7 +45,7 @@ Parameter Data :
 
 Cell Name         = Main LP
 Parameter Name    = EQ1940Dual21A1
-Parameter Address = 67
+Parameter Address = 59
 Parameter Value   = 0
 Parameter Data :
 0x00 ,	0x00 ,	0x00 ,	0x00 ,	
@@ -99,7 +54,7 @@ Parameter Data :
 
 Cell Name         = Main LP
 Parameter Name    = EQ1940Dual22A1
-Parameter Address = 68
+Parameter Address = 60
 Parameter Value   = 0
 Parameter Data :
 0x00 ,	0x00 ,	0x00 ,	0x00 ,	
@@ -108,7 +63,7 @@ Parameter Data :
 
 Cell Name         = Master volume main
 Parameter Name    = SWGain1940DBAlg1target
-Parameter Address = 76
+Parameter Address = 118
 Parameter Value   = 1
 Parameter Data :
 0x00 ,	0x80 ,	0x00 ,	0x00 ,	
@@ -117,7 +72,7 @@ Parameter Data :
 
 Cell Name         = Master volume main
 Parameter Name    = SWGain1940DBAlg1step
-Parameter Address = 77
+Parameter Address = 119
 Parameter Value   = 0.000244140625
 Parameter Data :
 0x00 ,	0x00 ,	0x08 ,	0x00 ,	
@@ -126,7 +81,7 @@ Parameter Data :
 
 Cell Name         = Main mute
 Parameter Name    = MuteSWSlewAlg1mute
-Parameter Address = 80
+Parameter Address = 120
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -135,34 +90,25 @@ Parameter Data :
 
 Cell Name         = Main mute
 Parameter Name    = MuteSWSlewAlg1step
-Parameter Address = 81
+Parameter Address = 121
 Parameter Value   = 0.0009765625
 Parameter Data :
 0x00, 0x00, 0x20, 0x00, 
 
 
 
-Cell Name         = Main bypass
+Cell Name         = Main EQ bypass
 Parameter Name    = StMuxSwSlew1coeffname
-Parameter Address = 74
-Parameter Value   = 0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Cell Name         = Sub inv L
-Parameter Name    = EQ1940Invert3gain
-Parameter Address = 53
+Parameter Address = 96
 Parameter Value   = 1
 Parameter Data :
-0x00, 0x80, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x01, 
 
 
 
-Cell Name         = Sub inv R
-Parameter Name    = EQ1940Invert4gain
-Parameter Address = 52
+Cell Name         = Sub inv
+Parameter Name    = EQ1940Invert3gain
+Parameter Address = 55
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -170,8 +116,8 @@ Parameter Data :
 
 
 Cell Name         = Sub HP
-Parameter Name    = EQ1940Dual30B1
-Parameter Address = 59
+Parameter Name    = EQ1940Single20B1
+Parameter Address = 61
 Parameter Value   = 1
 Parameter Data :
 0x00 ,	0x80 ,	0x00 ,	0x00 ,	
@@ -179,25 +125,7 @@ Parameter Data :
 
 
 Cell Name         = Sub HP
-Parameter Name    = EQ1940Dual31B1
-Parameter Address = 60
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Sub HP
-Parameter Name    = EQ1940Dual32B1
-Parameter Address = 61
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Sub HP
-Parameter Name    = EQ1940Dual31A1
+Parameter Name    = EQ1940Single21B1
 Parameter Address = 62
 Parameter Value   = 0
 Parameter Data :
@@ -206,7 +134,7 @@ Parameter Data :
 
 
 Cell Name         = Sub HP
-Parameter Name    = EQ1940Dual32A1
+Parameter Name    = EQ1940Single22B1
 Parameter Address = 63
 Parameter Value   = 0
 Parameter Data :
@@ -214,45 +142,18 @@ Parameter Data :
 
 
 
-Cell Name         = Sub LP
-Parameter Name    = EQ1940Dual40B1
-Parameter Address = 69
-Parameter Value   = 1
-Parameter Data :
-0x00 ,	0x80 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Sub LP
-Parameter Name    = EQ1940Dual41B1
-Parameter Address = 70
+Cell Name         = Sub HP
+Parameter Name    = EQ1940Single21A1
+Parameter Address = 64
 Parameter Value   = 0
 Parameter Data :
 0x00 ,	0x00 ,	0x00 ,	0x00 ,	
 
 
 
-Cell Name         = Sub LP
-Parameter Name    = EQ1940Dual42B1
-Parameter Address = 71
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Sub LP
-Parameter Name    = EQ1940Dual41A1
-Parameter Address = 72
-Parameter Value   = 0
-Parameter Data :
-0x00 ,	0x00 ,	0x00 ,	0x00 ,	
-
-
-
-Cell Name         = Sub LP
-Parameter Name    = EQ1940Dual42A1
-Parameter Address = 73
+Cell Name         = Sub HP
+Parameter Name    = EQ1940Single22A1
+Parameter Address = 65
 Parameter Value   = 0
 Parameter Data :
 0x00 ,	0x00 ,	0x00 ,	0x00 ,	
@@ -261,7 +162,7 @@ Parameter Data :
 
 Cell Name         = Master volume sub
 Parameter Name    = SWGain1940DBAlg2target
-Parameter Address = 78
+Parameter Address = 122
 Parameter Value   = 1
 Parameter Data :
 0x00 ,	0x80 ,	0x00 ,	0x00 ,	
@@ -270,7 +171,7 @@ Parameter Data :
 
 Cell Name         = Master volume sub
 Parameter Name    = SWGain1940DBAlg2step
-Parameter Address = 79
+Parameter Address = 123
 Parameter Value   = 0.000244140625
 Parameter Data :
 0x00 ,	0x00 ,	0x08 ,	0x00 ,	
@@ -279,7 +180,7 @@ Parameter Data :
 
 Cell Name         = Sub mute
 Parameter Name    = MuteSWSlewAlg2mute
-Parameter Address = 84
+Parameter Address = 126
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -288,19 +189,10 @@ Parameter Data :
 
 Cell Name         = Sub mute
 Parameter Name    = MuteSWSlewAlg2step
-Parameter Address = 85
+Parameter Address = 127
 Parameter Value   = 0.0009765625
 Parameter Data :
 0x00, 0x00, 0x20, 0x00, 
-
-
-
-Cell Name         = Sub bypass
-Parameter Name    = StMuxSwSlew2coeffname
-Parameter Address = 75
-Parameter Value   = 0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
 
 
 
@@ -324,16 +216,16 @@ Parameter Data :
 
 Cell Name         = Sub level
 Parameter Name    = SWGain1940DBAlg3target
-Parameter Address = 82
-Parameter Value   = 0.0316227674484253
+Parameter Address = 124
+Parameter Value   = 0.316227793693542
 Parameter Data :
-0x00 ,	0x04 ,	0x0C ,	0x37 ,	
+0x00 ,	0x28 ,	0x7A ,	0x27 ,	
 
 
 
 Cell Name         = Sub level
 Parameter Name    = SWGain1940DBAlg3step
-Parameter Address = 83
+Parameter Address = 125
 Parameter Value   = 0.000244140625
 Parameter Data :
 0x00 ,	0x00 ,	0x08 ,	0x00 ,	
@@ -487,90 +379,90 @@ Parameter Data :
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B0_2
 Parameter Address = 19
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B1_2
 Parameter Address = 20
-Parameter Value   = -1.98843228816986
+Parameter Value   = -1.98994636535645
 Parameter Data :
-0x0F ,	0x01 ,	0x7B ,	0x0D ,	
+0x0F ,	0x01 ,	0x49 ,	0x70 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A1_2
 Parameter Address = 21
-Parameter Value   = 1.98831963539124
+Parameter Value   = 1.98986113071442
 Parameter Data :
-0x00 ,	0xFE ,	0x81 ,	0x42 ,	
+0x00 ,	0xFE ,	0xB3 ,	0xC5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B2_2
 Parameter Address = 22
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A2_2
 Parameter Address = 23
-Parameter Value   = -0.988544940948486
+Parameter Value   = -0.990031599998474
 Parameter Data :
-0x0F ,	0x81 ,	0x77 ,	0x5C ,	
+0x0F ,	0x81 ,	0x46 ,	0xA5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B0_3
 Parameter Address = 24
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B1_3
 Parameter Address = 25
-Parameter Value   = -1.97245562076569
+Parameter Value   = -1.97601795196533
 Parameter Data :
-0x0F ,	0x03 ,	0x86 ,	0x93 ,	
+0x0F ,	0x03 ,	0x11 ,	0xD8 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A1_3
 Parameter Address = 26
-Parameter Value   = 1.97234392166138
+Parameter Value   = 1.97593331336975
 Parameter Data :
-0x00 ,	0xFC ,	0x75 ,	0xC4 ,	
+0x00 ,	0xFC ,	0xEB ,	0x62 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B2_3
 Parameter Address = 27
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A2_3
 Parameter Address = 28
-Parameter Value   = -0.972567439079285
+Parameter Value   = -0.976102590560913
 Parameter Data :
-0x0F ,	0x83 ,	0x82 ,	0xE9 ,	
+0x0F ,	0x83 ,	0x0F ,	0x12 ,	
 
 
 
@@ -676,90 +568,90 @@ Parameter Data :
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B0_2
 Parameter Address = 40
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B1_2
 Parameter Address = 41
-Parameter Value   = -1.98843228816986
+Parameter Value   = -1.98994636535645
 Parameter Data :
-0x0F ,	0x01 ,	0x7B ,	0x0D ,	
+0x0F ,	0x01 ,	0x49 ,	0x70 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A1_2
 Parameter Address = 42
-Parameter Value   = 1.98831963539124
+Parameter Value   = 1.98986113071442
 Parameter Data :
-0x00 ,	0xFE ,	0x81 ,	0x42 ,	
+0x00 ,	0xFE ,	0xB3 ,	0xC5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B2_2
 Parameter Address = 43
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A2_2
 Parameter Address = 44
-Parameter Value   = -0.988544940948486
+Parameter Value   = -0.990031599998474
 Parameter Data :
-0x0F ,	0x81 ,	0x77 ,	0x5C ,	
+0x0F ,	0x81 ,	0x46 ,	0xA5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B0_3
 Parameter Address = 45
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B1_3
 Parameter Address = 46
-Parameter Value   = -1.97245562076569
+Parameter Value   = -1.97601795196533
 Parameter Data :
-0x0F ,	0x03 ,	0x86 ,	0x93 ,	
+0x0F ,	0x03 ,	0x11 ,	0xD8 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A1_3
 Parameter Address = 47
-Parameter Value   = 1.97234392166138
+Parameter Value   = 1.97593331336975
 Parameter Data :
-0x00 ,	0xFC ,	0x75 ,	0xC4 ,	
+0x00 ,	0xFC ,	0xEB ,	0x62 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B2_3
 Parameter Address = 48
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A2_3
 Parameter Address = 49
-Parameter Value   = -0.972567439079285
+Parameter Value   = -0.976102590560913
 Parameter Data :
-0x0F ,	0x83 ,	0x82 ,	0xE9 ,	
+0x0F ,	0x83 ,	0x0F ,	0x12 ,	
 
 
 
@@ -865,90 +757,90 @@ Parameter Data :
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B0_2
 Parameter Address = 19
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B1_2
 Parameter Address = 20
-Parameter Value   = -1.98843228816986
+Parameter Value   = -1.98994636535645
 Parameter Data :
-0x0F ,	0x01 ,	0x7B ,	0x0D ,	
+0x0F ,	0x01 ,	0x49 ,	0x70 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A1_2
 Parameter Address = 21
-Parameter Value   = 1.98831963539124
+Parameter Value   = 1.98986113071442
 Parameter Data :
-0x00 ,	0xFE ,	0x81 ,	0x42 ,	
+0x00 ,	0xFE ,	0xB3 ,	0xC5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B2_2
 Parameter Address = 22
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A2_2
 Parameter Address = 23
-Parameter Value   = -0.988544940948486
+Parameter Value   = -0.990031599998474
 Parameter Data :
-0x0F ,	0x81 ,	0x77 ,	0x5C ,	
+0x0F ,	0x81 ,	0x46 ,	0xA5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B0_3
 Parameter Address = 24
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B1_3
 Parameter Address = 25
-Parameter Value   = -1.97245562076569
+Parameter Value   = -1.97601795196533
 Parameter Data :
-0x0F ,	0x03 ,	0x86 ,	0x93 ,	
+0x0F ,	0x03 ,	0x11 ,	0xD8 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A1_3
 Parameter Address = 26
-Parameter Value   = 1.97234392166138
+Parameter Value   = 1.97593331336975
 Parameter Data :
-0x00 ,	0xFC ,	0x75 ,	0xC4 ,	
+0x00 ,	0xFC ,	0xEB ,	0x62 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1B2_3
 Parameter Address = 27
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP1A2_3
 Parameter Address = 28
-Parameter Value   = -0.972567439079285
+Parameter Value   = -0.976102590560913
 Parameter Data :
-0x0F ,	0x83 ,	0x82 ,	0xE9 ,	
+0x0F ,	0x83 ,	0x0F ,	0x12 ,	
 
 
 
@@ -1054,90 +946,90 @@ Parameter Data :
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B0_2
 Parameter Address = 40
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B1_2
 Parameter Address = 41
-Parameter Value   = -1.98843228816986
+Parameter Value   = -1.98994636535645
 Parameter Data :
-0x0F ,	0x01 ,	0x7B ,	0x0D ,	
+0x0F ,	0x01 ,	0x49 ,	0x70 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A1_2
 Parameter Address = 42
-Parameter Value   = 1.98831963539124
+Parameter Value   = 1.98986113071442
 Parameter Data :
-0x00 ,	0xFE ,	0x81 ,	0x42 ,	
+0x00 ,	0xFE ,	0xB3 ,	0xC5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B2_2
 Parameter Address = 43
-Parameter Value   = 0.994216203689575
+Parameter Value   = 0.994973182678223
 Parameter Data :
-0x00 ,	0x7F ,	0x42 ,	0x7A ,	
+0x00 ,	0x7F ,	0x5B ,	0x48 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A2_2
 Parameter Address = 44
-Parameter Value   = -0.988544940948486
+Parameter Value   = -0.990031599998474
 Parameter Data :
-0x0F ,	0x81 ,	0x77 ,	0x5C ,	
+0x0F ,	0x81 ,	0x46 ,	0xA5 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B0_3
 Parameter Address = 45
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B1_3
 Parameter Address = 46
-Parameter Value   = -1.97245562076569
+Parameter Value   = -1.97601795196533
 Parameter Data :
-0x0F ,	0x03 ,	0x86 ,	0x93 ,	
+0x0F ,	0x03 ,	0x11 ,	0xD8 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A1_3
 Parameter Address = 47
-Parameter Value   = 1.97234392166138
+Parameter Value   = 1.97593331336975
 Parameter Data :
-0x00 ,	0xFC ,	0x75 ,	0xC4 ,	
+0x00 ,	0xFC ,	0xEB ,	0x62 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2B2_3
 Parameter Address = 48
-Parameter Value   = 0.986227869987488
+Parameter Value   = 0.988008975982666
 Parameter Data :
-0x00 ,	0x7E ,	0x3C ,	0xB7 ,	
+0x00 ,	0x7E ,	0x77 ,	0x14 ,	
 
 
 
 Cell Name         = Crossover main/sub
 Parameter Name    = CrossoverFilter2WayAlgDP2A2_3
 Parameter Address = 49
-Parameter Value   = -0.972567439079285
+Parameter Value   = -0.976102590560913
 Parameter Data :
-0x0F ,	0x83 ,	0x82 ,	0xE9 ,	
+0x0F ,	0x83 ,	0x0F ,	0x12 ,	
 
 
 
@@ -1147,6 +1039,762 @@ Parameter Address = 29
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan10B1
+Parameter Address = 97
+Parameter Value   = 1.00054252147675
+Parameter Data :
+0x00 ,	0x80 ,	0x11 ,	0xC7 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11B1
+Parameter Address = 98
+Parameter Value   = -1.99940192699432
+Parameter Data :
+0x0F ,	0x00 ,	0x13 ,	0x99 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12B1
+Parameter Address = 99
+Parameter Value   = 0.998955726623535
+Parameter Data :
+0x00 ,	0x7F ,	0xDD ,	0xC8 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11A1
+Parameter Address = 100
+Parameter Value   = 1.99940192699432
+Parameter Data :
+0x00 ,	0xFF ,	0xEC ,	0x67 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12A1
+Parameter Address = 101
+Parameter Value   = -0.999498248100281
+Parameter Data :
+0x0F ,	0x80 ,	0x10 ,	0x71 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan10B2
+Parameter Address = 102
+Parameter Value   = 1.00061476230621
+Parameter Data :
+0x00 ,	0x80 ,	0x14 ,	0x25 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11B2
+Parameter Address = 103
+Parameter Value   = -1.99930763244629
+Parameter Data :
+0x0F ,	0x00 ,	0x16 ,	0xB0 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12B2
+Parameter Address = 104
+Parameter Value   = 0.998816609382629
+Parameter Data :
+0x00 ,	0x7F ,	0xD9 ,	0x39 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11A2
+Parameter Address = 105
+Parameter Value   = 1.99930763244629
+Parameter Data :
+0x00 ,	0xFF ,	0xE9 ,	0x50 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12A2
+Parameter Address = 106
+Parameter Value   = -0.999431371688843
+Parameter Data :
+0x0F ,	0x80 ,	0x12 ,	0xA2 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan10B3
+Parameter Address = 107
+Parameter Value   = 1.00027847290039
+Parameter Data :
+0x00 ,	0x80 ,	0x09 ,	0x20 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11B3
+Parameter Address = 108
+Parameter Value   = -1.99965846538544
+Parameter Data :
+0x0F ,	0x00 ,	0x0B ,	0x31 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12B3
+Parameter Address = 109
+Parameter Value   = 0.99946391582489
+Parameter Data :
+0x00 ,	0x7F ,	0xEE ,	0x6F ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11A3
+Parameter Address = 110
+Parameter Value   = 1.99965846538544
+Parameter Data :
+0x00 ,	0xFF ,	0xF4 ,	0xCF ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12A3
+Parameter Address = 111
+Parameter Value   = -0.999742388725281
+Parameter Data :
+0x0F ,	0x80 ,	0x08 ,	0x71 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan10B4
+Parameter Address = 112
+Parameter Value   = 0.999914050102234
+Parameter Data :
+0x00 ,	0x7F ,	0xFD ,	0x2F ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11B4
+Parameter Address = 113
+Parameter Value   = -1.99957263469696
+Parameter Data :
+0x0F ,	0x00 ,	0x0E ,	0x01 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12B4
+Parameter Address = 114
+Parameter Value   = 0.999693274497986
+Parameter Data :
+0x00 ,	0x7F ,	0xF5 ,	0xF3 ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan11A4
+Parameter Address = 115
+Parameter Value   = 1.99957263469696
+Parameter Data :
+0x00 ,	0xFF ,	0xF1 ,	0xFF ,	
+
+
+
+Cell Name         = Sub EQ
+Parameter Name    = PEQ1Chan12A4
+Parameter Address = 116
+Parameter Value   = -0.99960732460022
+Parameter Data :
+0x0F ,	0x80 ,	0x0C ,	0xDE ,	
+
+
+
+Cell Name         = Sub EQ bypass
+Parameter Name    = monoMuxSwSlew1coeffname
+Parameter Address = 117
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x00, 0x00, 0x01, 
+
+
+
+Cell Name         = Sub mixer
+Parameter Name    = SingleCtrlMixerNEW19401
+Parameter Address = 54
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B1
+Parameter Address = 66
+Parameter Value   = 1.00127565860748
+Parameter Data :
+0x00 ,	0x80 ,	0x29 ,	0xCD ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B1
+Parameter Address = 67
+Parameter Value   = -1.99924087524414
+Parameter Data :
+0x0F ,	0x00 ,	0x18 ,	0xE0 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B1
+Parameter Address = 68
+Parameter Value   = 0.998172521591187
+Parameter Data :
+0x00 ,	0x7F ,	0xC4 ,	0x1E ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A1
+Parameter Address = 69
+Parameter Value   = 1.99924087524414
+Parameter Data :
+0x00 ,	0xFF ,	0xE7 ,	0x20 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A1
+Parameter Address = 70
+Parameter Value   = -0.999448180198669
+Parameter Data :
+0x0F ,	0x80 ,	0x12 ,	0x15 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B2
+Parameter Address = 71
+Parameter Value   = 0.994499444961548
+Parameter Data :
+0x00 ,	0x7F ,	0x4B ,	0xC2 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B2
+Parameter Address = 72
+Parameter Value   = -1.98323118686676
+Parameter Data :
+0x0F ,	0x02 ,	0x25 ,	0x7B ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B2
+Parameter Address = 73
+Parameter Value   = 0.989411592483521
+Parameter Data :
+0x00 ,	0x7E ,	0xA5 ,	0x0A ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A2
+Parameter Address = 74
+Parameter Value   = 1.98323118686676
+Parameter Data :
+0x00 ,	0xFD ,	0xDA ,	0x85 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A2
+Parameter Address = 75
+Parameter Value   = -0.983911037445068
+Parameter Data :
+0x0F ,	0x82 ,	0x0F ,	0x34 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B3
+Parameter Address = 76
+Parameter Value   = 1.0133044719696
+Parameter Data :
+0x00 ,	0x81 ,	0xB3 ,	0xF6 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B3
+Parameter Address = 77
+Parameter Value   = -1.96160173416138
+Parameter Data :
+0x0F ,	0x04 ,	0xEA ,	0x3C ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B3
+Parameter Address = 78
+Parameter Value   = 0.952506184577942
+Parameter Data :
+0x00 ,	0x79 ,	0xEB ,	0xB9 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A3
+Parameter Address = 79
+Parameter Value   = 1.96160173416138
+Parameter Data :
+0x00 ,	0xFB ,	0x15 ,	0xC4 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A3
+Parameter Address = 80
+Parameter Value   = -0.965810656547546
+Parameter Data :
+0x0F ,	0x84 ,	0x60 ,	0x51 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B4
+Parameter Address = 81
+Parameter Value   = 1.46638023853302
+Parameter Data :
+0x00 ,	0xBB ,	0xB2 ,	0x59 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B4
+Parameter Address = 82
+Parameter Value   = -1.1952793598175
+Parameter Data :
+0x0F ,	0x67 ,	0x01 ,	0x16 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B4
+Parameter Address = 83
+Parameter Value   = 0.525602221488953
+Parameter Data :
+0x00 ,	0x43 ,	0x46 ,	0xEF ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A4
+Parameter Address = 84
+Parameter Value   = 0.497812986373901
+Parameter Data :
+0x00 ,	0x3F ,	0xB8 ,	0x56 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A4
+Parameter Address = 85
+Parameter Value   = -0.29451596736908
+Parameter Data :
+0x0F ,	0xDA ,	0x4D ,	0x4D ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B5
+Parameter Address = 86
+Parameter Value   = 0.991056680679321
+Parameter Data :
+0x00 ,	0x7E ,	0xDA ,	0xF2 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B5
+Parameter Address = 87
+Parameter Value   = -1.9350106716156
+Parameter Data :
+0x0F ,	0x08 ,	0x51 ,	0x92 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B5
+Parameter Address = 88
+Parameter Value   = 0.968074202537537
+Parameter Data :
+0x00 ,	0x7B ,	0xE9 ,	0xDB ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A5
+Parameter Address = 89
+Parameter Value   = 1.9350106716156
+Parameter Data :
+0x00 ,	0xF7 ,	0xAE ,	0x6E ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A5
+Parameter Address = 90
+Parameter Value   = -0.959130883216858
+Parameter Data :
+0x0F ,	0x85 ,	0x3B ,	0x33 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B6
+Parameter Address = 91
+Parameter Value   = 1.00115311145782
+Parameter Data :
+0x00 ,	0x80 ,	0x25 ,	0xC9 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B6
+Parameter Address = 92
+Parameter Value   = -1.99749338626862
+Parameter Data :
+0x0F ,	0x00 ,	0x52 ,	0x23 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B6
+Parameter Address = 93
+Parameter Value   = 0.997780442237854
+Parameter Data :
+0x00 ,	0x7F ,	0xB7 ,	0x45 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A6
+Parameter Address = 94
+Parameter Value   = 1.99749338626862
+Parameter Data :
+0x00 ,	0xFF ,	0xAD ,	0xDD ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A6
+Parameter Address = 95
+Parameter Value   = -0.998933434486389
+Parameter Data :
+0x0F ,	0x80 ,	0x22 ,	0xF3 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B1
+Parameter Address = 66
+Parameter Value   = 1.00127565860748
+Parameter Data :
+0x00 ,	0x80 ,	0x29 ,	0xCD ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B1
+Parameter Address = 67
+Parameter Value   = -1.99924087524414
+Parameter Data :
+0x0F ,	0x00 ,	0x18 ,	0xE0 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B1
+Parameter Address = 68
+Parameter Value   = 0.998172521591187
+Parameter Data :
+0x00 ,	0x7F ,	0xC4 ,	0x1E ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A1
+Parameter Address = 69
+Parameter Value   = 1.99924087524414
+Parameter Data :
+0x00 ,	0xFF ,	0xE7 ,	0x20 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A1
+Parameter Address = 70
+Parameter Value   = -0.999448180198669
+Parameter Data :
+0x0F ,	0x80 ,	0x12 ,	0x15 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B2
+Parameter Address = 71
+Parameter Value   = 0.994499444961548
+Parameter Data :
+0x00 ,	0x7F ,	0x4B ,	0xC2 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B2
+Parameter Address = 72
+Parameter Value   = -1.98323118686676
+Parameter Data :
+0x0F ,	0x02 ,	0x25 ,	0x7B ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B2
+Parameter Address = 73
+Parameter Value   = 0.989411592483521
+Parameter Data :
+0x00 ,	0x7E ,	0xA5 ,	0x0A ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A2
+Parameter Address = 74
+Parameter Value   = 1.98323118686676
+Parameter Data :
+0x00 ,	0xFD ,	0xDA ,	0x85 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A2
+Parameter Address = 75
+Parameter Value   = -0.983911037445068
+Parameter Data :
+0x0F ,	0x82 ,	0x0F ,	0x34 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B3
+Parameter Address = 76
+Parameter Value   = 1.0133044719696
+Parameter Data :
+0x00 ,	0x81 ,	0xB3 ,	0xF6 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B3
+Parameter Address = 77
+Parameter Value   = -1.96160173416138
+Parameter Data :
+0x0F ,	0x04 ,	0xEA ,	0x3C ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B3
+Parameter Address = 78
+Parameter Value   = 0.952506184577942
+Parameter Data :
+0x00 ,	0x79 ,	0xEB ,	0xB9 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A3
+Parameter Address = 79
+Parameter Value   = 1.96160173416138
+Parameter Data :
+0x00 ,	0xFB ,	0x15 ,	0xC4 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A3
+Parameter Address = 80
+Parameter Value   = -0.965810656547546
+Parameter Data :
+0x0F ,	0x84 ,	0x60 ,	0x51 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B4
+Parameter Address = 81
+Parameter Value   = 1.46638023853302
+Parameter Data :
+0x00 ,	0xBB ,	0xB2 ,	0x59 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B4
+Parameter Address = 82
+Parameter Value   = -1.1952793598175
+Parameter Data :
+0x0F ,	0x67 ,	0x01 ,	0x16 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B4
+Parameter Address = 83
+Parameter Value   = 0.525602221488953
+Parameter Data :
+0x00 ,	0x43 ,	0x46 ,	0xEF ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A4
+Parameter Address = 84
+Parameter Value   = 0.497812986373901
+Parameter Data :
+0x00 ,	0x3F ,	0xB8 ,	0x56 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A4
+Parameter Address = 85
+Parameter Value   = -0.29451596736908
+Parameter Data :
+0x0F ,	0xDA ,	0x4D ,	0x4D ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B5
+Parameter Address = 86
+Parameter Value   = 0.991056680679321
+Parameter Data :
+0x00 ,	0x7E ,	0xDA ,	0xF2 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B5
+Parameter Address = 87
+Parameter Value   = -1.9350106716156
+Parameter Data :
+0x0F ,	0x08 ,	0x51 ,	0x92 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B5
+Parameter Address = 88
+Parameter Value   = 0.968074202537537
+Parameter Data :
+0x00 ,	0x7B ,	0xE9 ,	0xDB ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A5
+Parameter Address = 89
+Parameter Value   = 1.9350106716156
+Parameter Data :
+0x00 ,	0xF7 ,	0xAE ,	0x6E ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A5
+Parameter Address = 90
+Parameter Value   = -0.959130883216858
+Parameter Data :
+0x0F ,	0x85 ,	0x3B ,	0x33 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan20B6
+Parameter Address = 91
+Parameter Value   = 1.00115311145782
+Parameter Data :
+0x00 ,	0x80 ,	0x25 ,	0xC9 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21B6
+Parameter Address = 92
+Parameter Value   = -1.99749338626862
+Parameter Data :
+0x0F ,	0x00 ,	0x52 ,	0x23 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22B6
+Parameter Address = 93
+Parameter Value   = 0.997780442237854
+Parameter Data :
+0x00 ,	0x7F ,	0xB7 ,	0x45 ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan21A6
+Parameter Address = 94
+Parameter Value   = 1.99749338626862
+Parameter Data :
+0x00 ,	0xFF ,	0xAD ,	0xDD ,	
+
+
+
+Cell Name         = Main EQ
+Parameter Name    = PEQ1Chan22A6
+Parameter Address = 95
+Parameter Value   = -0.998933434486389
+Parameter Data :
+0x0F ,	0x80 ,	0x22 ,	0xF3 ,	
+
+
+
+Cell Name         = Main crossover bypass
+Parameter Name    = StMuxSwSlew2coeffname
+Parameter Address = 50
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Sub crossover bypass
+Parameter Name    = StMuxSwSlew3coeffname
+Parameter Address = 51
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
 
 
 
@@ -1171,16 +1819,16 @@ See also teh_DSP.hex file
 0x00 , 	0xFD , 	0x61 , 	0x2D , 	
 0x00 , 	0x00 , 	0x01 , 	0x01 , 	
 0x0F , 	0x82 , 	0x9A , 	0xCF , 	
-0x00 , 	0x7F , 	0x42 , 	0x7A , 	
-0x0F , 	0x01 , 	0x7B , 	0x0D , 	
-0x00 , 	0xFE , 	0x81 , 	0x42 , 	
-0x00 , 	0x7F , 	0x42 , 	0x7A , 	
-0x0F , 	0x81 , 	0x77 , 	0x5C , 	
-0x00 , 	0x7E , 	0x3C , 	0xB7 , 	
-0x0F , 	0x03 , 	0x86 , 	0x93 , 	
-0x00 , 	0xFC , 	0x75 , 	0xC4 , 	
-0x00 , 	0x7E , 	0x3C , 	0xB7 , 	
-0x0F , 	0x83 , 	0x82 , 	0xE9 , 	
+0x00 , 	0x7F , 	0x5B , 	0x48 , 	
+0x0F , 	0x01 , 	0x49 , 	0x70 , 	
+0x00 , 	0xFE , 	0xB3 , 	0xC5 , 	
+0x00 , 	0x7F , 	0x5B , 	0x48 , 	
+0x0F , 	0x81 , 	0x46 , 	0xA5 , 	
+0x00 , 	0x7E , 	0x77 , 	0x14 , 	
+0x0F , 	0x03 , 	0x11 , 	0xD8 , 	
+0x00 , 	0xFC , 	0xEB , 	0x62 , 	
+0x00 , 	0x7E , 	0x77 , 	0x14 , 	
+0x0F , 	0x83 , 	0x0F , 	0x12 , 	
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x01 , 	0x03 , 	
 0x00 , 	0x00 , 	0x02 , 	0x05 , 	
@@ -1192,25 +1840,22 @@ See also teh_DSP.hex file
 0x00 , 	0xFD , 	0x61 , 	0x2D , 	
 0x00 , 	0x00 , 	0x01 , 	0x01 , 	
 0x0F , 	0x82 , 	0x9A , 	0xCF , 	
-0x00 , 	0x7F , 	0x42 , 	0x7A , 	
-0x0F , 	0x01 , 	0x7B , 	0x0D , 	
-0x00 , 	0xFE , 	0x81 , 	0x42 , 	
-0x00 , 	0x7F , 	0x42 , 	0x7A , 	
-0x0F , 	0x81 , 	0x77 , 	0x5C , 	
-0x00 , 	0x7E , 	0x3C , 	0xB7 , 	
-0x0F , 	0x03 , 	0x86 , 	0x93 , 	
-0x00 , 	0xFC , 	0x75 , 	0xC4 , 	
-0x00 , 	0x7E , 	0x3C , 	0xB7 , 	
-0x0F , 	0x83 , 	0x82 , 	0xE9 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x7F , 	0x5B , 	0x48 , 	
+0x0F , 	0x01 , 	0x49 , 	0x70 , 	
+0x00 , 	0xFE , 	0xB3 , 	0xC5 , 	
+0x00 , 	0x7F , 	0x5B , 	0x48 , 	
+0x0F , 	0x81 , 	0x46 , 	0xA5 , 	
+0x00 , 	0x7E , 	0x77 , 	0x14 , 	
+0x0F , 	0x03 , 	0x11 , 	0xD8 , 	
+0x00 , 	0xFC , 	0xEB , 	0x62 , 	
+0x00 , 	0x7E , 	0x77 , 	0x14 , 	
+0x0F , 	0x83 , 	0x0F , 	0x12 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
@@ -1221,65 +1866,68 @@ See also teh_DSP.hex file
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x08 , 	0x00 , 	
+0x00 , 	0x80 , 	0x29 , 	0xCD , 	
+0x0F , 	0x00 , 	0x18 , 	0xE0 , 	
+0x00 , 	0x7F , 	0xC4 , 	0x1E , 	
+0x00 , 	0xFF , 	0xE7 , 	0x20 , 	
+0x0F , 	0x80 , 	0x12 , 	0x15 , 	
+0x00 , 	0x7F , 	0x4B , 	0xC2 , 	
+0x0F , 	0x02 , 	0x25 , 	0x7B , 	
+0x00 , 	0x7E , 	0xA5 , 	0x0A , 	
+0x00 , 	0xFD , 	0xDA , 	0x85 , 	
+0x0F , 	0x82 , 	0x0F , 	0x34 , 	
+0x00 , 	0x81 , 	0xB3 , 	0xF6 , 	
+0x0F , 	0x04 , 	0xEA , 	0x3C , 	
+0x00 , 	0x79 , 	0xEB , 	0xB9 , 	
+0x00 , 	0xFB , 	0x15 , 	0xC4 , 	
+0x0F , 	0x84 , 	0x60 , 	0x51 , 	
+0x00 , 	0xBB , 	0xB2 , 	0x59 , 	
+0x0F , 	0x67 , 	0x01 , 	0x16 , 	
+0x00 , 	0x43 , 	0x46 , 	0xEF , 	
+0x00 , 	0x3F , 	0xB8 , 	0x56 , 	
+0x0F , 	0xDA , 	0x4D , 	0x4D , 	
+0x00 , 	0x7E , 	0xDA , 	0xF2 , 	
+0x0F , 	0x08 , 	0x51 , 	0x92 , 	
+0x00 , 	0x7B , 	0xE9 , 	0xDB , 	
+0x00 , 	0xF7 , 	0xAE , 	0x6E , 	
+0x0F , 	0x85 , 	0x3B , 	0x33 , 	
+0x00 , 	0x80 , 	0x25 , 	0xC9 , 	
+0x0F , 	0x00 , 	0x52 , 	0x23 , 	
+0x00 , 	0x7F , 	0xB7 , 	0x45 , 	
+0x00 , 	0xFF , 	0xAD , 	0xDD , 	
+0x0F , 	0x80 , 	0x22 , 	0xF3 , 	
+0x00 , 	0x00 , 	0x00 , 	0x01 , 	
+0x00 , 	0x80 , 	0x11 , 	0xC7 , 	
+0x0F , 	0x00 , 	0x13 , 	0x99 , 	
+0x00 , 	0x7F , 	0xDD , 	0xC8 , 	
+0x00 , 	0xFF , 	0xEC , 	0x67 , 	
+0x0F , 	0x80 , 	0x10 , 	0x71 , 	
+0x00 , 	0x80 , 	0x14 , 	0x25 , 	
+0x0F , 	0x00 , 	0x16 , 	0xB0 , 	
+0x00 , 	0x7F , 	0xD9 , 	0x39 , 	
+0x00 , 	0xFF , 	0xE9 , 	0x50 , 	
+0x0F , 	0x80 , 	0x12 , 	0xA2 , 	
+0x00 , 	0x80 , 	0x09 , 	0x20 , 	
+0x0F , 	0x00 , 	0x0B , 	0x31 , 	
+0x00 , 	0x7F , 	0xEE , 	0x6F , 	
+0x00 , 	0xFF , 	0xF4 , 	0xCF , 	
+0x0F , 	0x80 , 	0x08 , 	0x71 , 	
+0x00 , 	0x7F , 	0xFD , 	0x2F , 	
+0x0F , 	0x00 , 	0x0E , 	0x01 , 	
+0x00 , 	0x7F , 	0xF5 , 	0xF3 , 	
+0x00 , 	0xFF , 	0xF1 , 	0xFF , 	
+0x0F , 	0x80 , 	0x0C , 	0xDE , 	
+0x00 , 	0x00 , 	0x00 , 	0x01 , 	
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x08 , 	0x00 , 	
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x20 , 	0x00 , 	
-0x00 , 	0x04 , 	0x0C , 	0x37 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x08 , 	0x00 , 	
+0x00 , 	0x28 , 	0x7A , 	0x27 , 	
 0x00 , 	0x00 , 	0x08 , 	0x00 , 	
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x20 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
@@ -2197,16 +2845,16 @@ Parameter data for: IC 1 (Binary format starting at parameter address 0)
 00000000	11111101	01100001	00101101	
 00000000	00000000	00000001	00000001	
 00001111	10000010	10011010	11001111	
-00000000	01111111	01000010	01111010	
-00001111	00000001	01111011	00001101	
-00000000	11111110	10000001	01000010	
-00000000	01111111	01000010	01111010	
-00001111	10000001	01110111	01011100	
-00000000	01111110	00111100	10110111	
-00001111	00000011	10000110	10010011	
-00000000	11111100	01110101	11000100	
-00000000	01111110	00111100	10110111	
-00001111	10000011	10000010	11101001	
+00000000	01111111	01011011	01001000	
+00001111	00000001	01001001	01110000	
+00000000	11111110	10110011	11000101	
+00000000	01111111	01011011	01001000	
+00001111	10000001	01000110	10100101	
+00000000	01111110	01110111	00010100	
+00001111	00000011	00010001	11011000	
+00000000	11111100	11101011	01100010	
+00000000	01111110	01110111	00010100	
+00001111	10000011	00001111	00010010	
 00000000	10000000	00000000	00000000	
 00000000	00000000	00000001	00000011	
 00000000	00000000	00000010	00000101	
@@ -2218,25 +2866,22 @@ Parameter data for: IC 1 (Binary format starting at parameter address 0)
 00000000	11111101	01100001	00101101	
 00000000	00000000	00000001	00000001	
 00001111	10000010	10011010	11001111	
-00000000	01111111	01000010	01111010	
-00001111	00000001	01111011	00001101	
-00000000	11111110	10000001	01000010	
-00000000	01111111	01000010	01111010	
-00001111	10000001	01110111	01011100	
-00000000	01111110	00111100	10110111	
-00001111	00000011	10000110	10010011	
-00000000	11111100	01110101	11000100	
-00000000	01111110	00111100	10110111	
-00001111	10000011	10000010	11101001	
-00000000	10000000	00000000	00000000	
-00000000	10000000	00000000	00000000	
-00000000	10000000	00000000	00000000	
-00000000	10000000	00000000	00000000	
-00000000	10000000	00000000	00000000	
+00000000	01111111	01011011	01001000	
+00001111	00000001	01001001	01110000	
+00000000	11111110	10110011	11000101	
+00000000	01111111	01011011	01001000	
+00001111	10000001	01000110	10100101	
+00000000	01111110	01110111	00010100	
+00001111	00000011	00010001	11011000	
+00000000	11111100	11101011	01100010	
+00000000	01111110	01110111	00010100	
+00001111	10000011	00001111	00010010	
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
 00000000	10000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
@@ -2247,65 +2892,68 @@ Parameter data for: IC 1 (Binary format starting at parameter address 0)
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
-00000000	10000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	10000000	00000000	00000000	
-00000000	00000000	00001000	00000000	
+00000000	10000000	00101001	11001101	
+00001111	00000000	00011000	11100000	
+00000000	01111111	11000100	00011110	
+00000000	11111111	11100111	00100000	
+00001111	10000000	00010010	00010101	
+00000000	01111111	01001011	11000010	
+00001111	00000010	00100101	01111011	
+00000000	01111110	10100101	00001010	
+00000000	11111101	11011010	10000101	
+00001111	10000010	00001111	00110100	
+00000000	10000001	10110011	11110110	
+00001111	00000100	11101010	00111100	
+00000000	01111001	11101011	10111001	
+00000000	11111011	00010101	11000100	
+00001111	10000100	01100000	01010001	
+00000000	10111011	10110010	01011001	
+00001111	01100111	00000001	00010110	
+00000000	01000011	01000110	11101111	
+00000000	00111111	10111000	01010110	
+00001111	11011010	01001101	01001101	
+00000000	01111110	11011010	11110010	
+00001111	00001000	01010001	10010010	
+00000000	01111011	11101001	11011011	
+00000000	11110111	10101110	01101110	
+00001111	10000101	00111011	00110011	
+00000000	10000000	00100101	11001001	
+00001111	00000000	01010010	00100011	
+00000000	01111111	10110111	01000101	
+00000000	11111111	10101101	11011101	
+00001111	10000000	00100010	11110011	
+00000000	00000000	00000000	00000001	
+00000000	10000000	00010001	11000111	
+00001111	00000000	00010011	10011001	
+00000000	01111111	11011101	11001000	
+00000000	11111111	11101100	01100111	
+00001111	10000000	00010000	01110001	
+00000000	10000000	00010100	00100101	
+00001111	00000000	00010110	10110000	
+00000000	01111111	11011001	00111001	
+00000000	11111111	11101001	01010000	
+00001111	10000000	00010010	10100010	
+00000000	10000000	00001001	00100000	
+00001111	00000000	00001011	00110001	
+00000000	01111111	11101110	01101111	
+00000000	11111111	11110100	11001111	
+00001111	10000000	00001000	01110001	
+00000000	01111111	11111101	00101111	
+00001111	00000000	00001110	00000001	
+00000000	01111111	11110101	11110011	
+00000000	11111111	11110001	11111111	
+00001111	10000000	00001100	11011110	
+00000000	00000000	00000000	00000001	
 00000000	10000000	00000000	00000000	
 00000000	00000000	00001000	00000000	
 00000000	10000000	00000000	00000000	
 00000000	00000000	00100000	00000000	
-00000000	00000100	00001100	00110111	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00001000	00000000	
+00000000	00101000	01111010	00100111	
 00000000	00000000	00001000	00000000	
 00000000	10000000	00000000	00000000	
 00000000	00000000	00100000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
