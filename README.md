@@ -12,3 +12,9 @@ Note: this project is still WIP
 -   STM32 connects to ESP32 via serial connection. STM32 forwards volume change and mute events from computer to ESP32
 -   ESP32 is connected to ADAU1701 with I2C. Volume level is set on ADAU1701
 -   ESP32 has a web interface, which can be used to set volume, sub level, mute etc
+
+## Components
+
+-   [ADAU1701 DSP board](https://store.sure-electronics.com/product/AA-AP23122)
+-   [Interface extension kit](https://store.sure-electronics.com/product/AA-AA11428)
+-   [ADAU1701 programmer](https://store.sure-electronics.com/product/DB-DP11219), [ESP-based programmer](https://ez.analog.com/dsp/sigmadsp/f/q-a/164008/sharing-tcpi-interface-for-sigma-studio-using-esp8266-or-esp32) should work too
