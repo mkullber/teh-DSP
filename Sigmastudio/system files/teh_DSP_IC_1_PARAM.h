@@ -1,7 +1,7 @@
 /*
  * File:           Z:\Sigmastudio teh DSP\system files\teh_DSP_IC_1_PARAM.h
  *
- * Created:        Saturday, October 23, 2021 1:04:58 PM
+ * Created:        Monday, October 25, 2021 8:34:41 AM
  * Description:    teh_DSP:IC 1 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -752,8 +752,8 @@
 #define MOD_MAINEQBYPASS_COUNT                         1
 #define MOD_MAINEQBYPASS_DEVICE                        "IC1"
 #define MOD_MAINEQBYPASS_STEREOSWSLEW_ADDR             96
-#define MOD_MAINEQBYPASS_STEREOSWSLEW_FIXPT            0x00000001
-#define MOD_MAINEQBYPASS_STEREOSWSLEW_VALUE            SIGMASTUDIOTYPE_INTEGER_CONVERT(1)
+#define MOD_MAINEQBYPASS_STEREOSWSLEW_FIXPT            0x00000000
+#define MOD_MAINEQBYPASS_STEREOSWSLEW_VALUE            SIGMASTUDIOTYPE_INTEGER_CONVERT(0)
 #define MOD_MAINEQBYPASS_STEREOSWSLEW_TYPE             SIGMASTUDIOTYPE_INTEGER
 
 /* Module Sub EQ - Parametric EQ*/
@@ -844,8 +844,8 @@
 #define MOD_SUBEQBYPASS_COUNT                          1
 #define MOD_SUBEQBYPASS_DEVICE                         "IC1"
 #define MOD_SUBEQBYPASS_MONOSWSLEW_ADDR                117
-#define MOD_SUBEQBYPASS_MONOSWSLEW_FIXPT               0x00000001
-#define MOD_SUBEQBYPASS_MONOSWSLEW_VALUE               SIGMASTUDIOTYPE_INTEGER_CONVERT(1)
+#define MOD_SUBEQBYPASS_MONOSWSLEW_FIXPT               0x00000000
+#define MOD_SUBEQBYPASS_MONOSWSLEW_VALUE               SIGMASTUDIOTYPE_INTEGER_CONVERT(0)
 #define MOD_SUBEQBYPASS_MONOSWSLEW_TYPE                SIGMASTUDIOTYPE_INTEGER
 
 /* Module Master volume main - Single SW slew vol (adjustable)*/
