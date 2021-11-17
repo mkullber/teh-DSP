@@ -18,3 +18,7 @@ Note: this project is still WIP
 -   [ADAU1701 DSP board](https://store.sure-electronics.com/product/AA-AP23122)
 -   [Interface extension kit](https://store.sure-electronics.com/product/AA-AA11428)
 -   [ADAU1701 programmer](https://store.sure-electronics.com/product/DB-DP11219), [ESP-based programmer](https://ez.analog.com/dsp/sigmadsp/f/q-a/164008/sharing-tcpi-interface-for-sigma-studio-using-esp8266-or-esp32) should work too
+
+## DSP program
+
+![DSP program](/docs/dsp_program.png?raw=true)
