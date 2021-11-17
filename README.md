@@ -12,6 +12,7 @@ Note: this project is still WIP
 -   STM32 connects to ESP32 via serial connection. STM32 forwards volume change and mute events from computer to ESP32
 -   ESP32 is connected to ADAU1701 with I2C. Volume level is set on ADAU1701
 -   ESP32 has a web interface, which can be used to set volume, sub level, mute etc
+-   ESP32 has ability to control subwoofer power with Tasmota based switch, like Sonoff S20
 
 ## Components
 
